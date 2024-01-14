@@ -1,0 +1,30 @@
+@media screen and (max-width:576px) {
+
+    nav>ul,
+    .first-section,
+    .second-section,
+    .third-section {
+        flex-direction: column;
+    }
+
+    .first-section,
+    nav>ul {
+        align-items: center;
+        gap: 5px;
+    }
+
+    .start {
+        margin: 10px;
+        font-size: 2rem;
+    }
+
+    .mobile-responsive {
+        margin-top: 50px;
+        height: 250px;
+        width: 250px;
+    }
+
+    .third-section {
+        gap: 10px;
+    }
+}
