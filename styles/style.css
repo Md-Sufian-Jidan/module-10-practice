@@ -130,6 +130,7 @@ font-weight: 400;
 /* footer styles start */
 .footer{
     margin-top: 200px;
+    padding-top: 50px ;
     height: 250px;
     background: #0a0826;
     text-align: center;
@@ -153,4 +154,5 @@ font-weight: 700;
     height: 32px;
     width: 32px;
     color: #bdb3bd;
+}    
 /* footer styles end */
