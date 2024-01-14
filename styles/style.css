@@ -1,13 +1,58 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Poppins:wght@400;500;700;800&display=swap');
-
+/* shared style  */
 body {
     font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+ :root{
+    --primary-color: #3a3a3a;
+ }
+/* header styles */
+header{
+    margin: 0px 100px;
+}
 nav>ul{
     list-style-type: none;
+    display: flex;
 }
 li a{
     text-decoration: none;
+    padding: 10px;
+}
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Influencer{
+    color: var(--primary-color);
+    font-size: 1.rem;
+    font-weight: 700;
+}
+.second-section{
+    display: flex;
+}
+.start{
+    color: var(--primary-color);
+font-size: 4rem;
+font-weight: 700;
+}
+.first-p{
+    color: var(--primary-color);
+    font-size: 1rem;
+font-weight: 600;
+}
+.Preebook{
+    border: none;
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 10px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.image{
+    background-image:url('../images/Circle\ design.svg') ;
+    background-repeat: no-repeat;
 }
